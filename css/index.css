@@ -100,13 +100,13 @@ nav a {
   position: relative;
   text-align: center;
   color: white;
-  margin: 30px 0;
-  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: center;
 }
 .main-image {
+  align-items: center;
   width: 100%;
   height: auto;
-  padding: 50px;
 }
 .opener {
   font-size: 4rem;
@@ -122,18 +122,15 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+body {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
 .artists-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-.Turner {
-  width: 50%;
-  height: auto;
-}
-.Vangogh {
-  width: 50%;
-  height: auto;
 }
 .artist {
   flex-direction: column;
