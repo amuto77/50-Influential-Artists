@@ -98,26 +98,15 @@ nav a {
   color: black;
 }
 .title-container {
-  position: relative;
-  text-align: center;
-  color: white;
+  background-image: url("https://raw.githubusercontent.com/amuto77/50-Influential-Artists/master/assets/home.png");
+  width: 70%;
   display: flex;
   justify-content: center;
-  margin: 0 -10vh;
-  padding-bottom: 50px;
-}
-.main-image {
-  display: flex;
   align-items: center;
-  width: 100%;
-  height: auto;
 }
-.opener {
-  font-size: 4rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.title-container h1 {
+  text-align: center;
+  color: white;
 }
 button {
   font-size: 2rem;
@@ -125,33 +114,4 @@ button {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-body {
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-}
-.artists-container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  flex-direction: row;
-}
-.artist {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-h2 {
-  font-size: 2rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-p {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
 }
